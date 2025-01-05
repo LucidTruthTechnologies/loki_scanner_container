@@ -2,12 +2,20 @@
 
 This is based on the [SANS ISC Diary _Quick IOC Scan With Docker_](https://isc.sans.edu/diary/29788).
 
-## CREATE
+## CREATE IMAGE
 
-To build the image, run: 
+To build the image, run:
 
 ```bash
 docker build -t loki .
+```
+
+## PULL FROM DOCKER HUB
+
+Alternatively, you can pull the pre-built image:
+
+```bash
+docker pull resistor52/loki:latest
 ```
 
 ## USAGE
